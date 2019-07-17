@@ -20,7 +20,7 @@ class CreateEmpleadosTable extends Migration
             $table->timestamps();
             
             
-            $table->foreign('id_Usuario')->references('id_Usuario')->on('usuarios'); 
+            $table->foreign('id_Usuario')->references('id:Usuario')->on('usuarios'); 
 
             
         });
